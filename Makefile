@@ -43,6 +43,8 @@ aec-table2: $(filter out/aec-table2/%, $(jsons))
 aec-fig15: $(filter out/aec-fig15/%, $(csexp-opts))
 aec-fig15-valid: $(filter out/aec-fig15/%, $(diffs))
 
+cse556: $(filter out/cse556/%, $(jsons))
+
 export OPENSCADPATH=.
 
 # don't delete anything in the out directory please, Make
